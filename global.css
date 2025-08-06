@@ -1,2 +1,14 @@
-@import "@catppuccin/palette/style";
+@import url("https://unpkg.com/@catppuccin/palette/css/catppuccin.css");
 
+body {
+    background-color: var(--ctp-mocha-base);
+}
+
+h1,
+p {
+    color: var(--ctp-mocha-base);
+}
+
+h2 {
+    color: var(--ctp-mocha-subtext0);
+}
