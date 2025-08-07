@@ -21,6 +21,7 @@ h6 {
     background-color: var(--ctp-mocha-surface0);
     padding: 0.5em 1em;
     width: 90%;
+    text-align: center;
 }
 
 hr {
@@ -61,6 +62,7 @@ ul {
 
 a {
     color: var(--ctp-mocha-pink);
+    padding: 0em;
 }
 
 h3,
@@ -89,11 +91,13 @@ div {
 
 .social-div {
     padding: 1em;
-    margin: 0.5em;
+    margin: auto;
     justify-items: center;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: row;
+    width: fit-content;
 }
 
 .social-item {
@@ -109,4 +113,9 @@ svg {
 
 path {
     fill: var(--ctp-mocha-pink);
+}
+
+.final-div {
+    margin: auto;
+    width: fit-content;
 }
