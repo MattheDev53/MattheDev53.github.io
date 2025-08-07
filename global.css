@@ -91,12 +91,15 @@ div {
     padding: 1em;
     margin: 0.5em;
     justify-items: center;
-    display: block ruby;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .social-item {
     display: flex;
     justify-content: center;
+    margin: 0.5em;
 }
 
 svg {
