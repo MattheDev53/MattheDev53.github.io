@@ -86,3 +86,24 @@ div {
 .b-crust {
     background-color: var(--ctp-mocha-crust);
 }
+
+.footer-div {
+    padding: 1em;
+    margin: 0.5em;
+    justify-items: center;
+    display: block ruby;
+}
+
+.social-div {
+    display: flex;
+    justify-content: center;
+}
+
+svg {
+    width: 3em;
+    height: 3em;
+}
+
+path {
+    fill: var(--ctp-mocha-pink);
+}
