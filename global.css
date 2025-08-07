@@ -1,14 +1,88 @@
 @import url("https://unpkg.com/@catppuccin/palette/css/catppuccin.css");
 
+* {
+    padding: 0.5em;
+    border-radius: 1em;
+    align-items: center;
+    justify-content: left;
+}
+
 body {
     background-color: var(--ctp-mocha-base);
+    color: var(--ctp-mocha-text);
 }
 
 h1,
-p {
-    color: var(--ctp-mocha-text);
+h2,
+h3,
+h4,
+h5,
+h6 {
+    background-color: var(--ctp-mocha-surface0);
+    padding: 0.5em 1em;
+    width: 90%;
+}
+
+hr {
+    background-image: linear-gradient(
+        90deg,
+        var(--ctp-mocha-rosewater),
+        var(--ctp-mocha-flamingo),
+        var(--ctp-mocha-pink),
+        var(--ctp-mocha-mauve),
+        var(--ctp-mocha-red),
+        var(--ctp-mocha-maroon),
+        var(--ctp-mocha-peach),
+        var(--ctp-mocha-yellow),
+        var(--ctp-mocha-green),
+        var(--ctp-mocha-teal),
+        var(--ctp-mocha-sky),
+        var(--ctp-mocha-sapphire),
+        var(--ctp-mocha-blue),
+        var(--ctp-mocha-lavender)
+    );
+    width: 75%;
+    border: none;
+}
+
+.titlecard {
+    color: var(--ctp-mocha-pink);
 }
 
 h2 {
     color: var(--ctp-mocha-subtext0);
+}
+
+ul {
+    list-style-type: none;
+    justify-self: center;
+    width: 50%;
+}
+
+a {
+    color: var(--ctp-mocha-pink);
+}
+
+h3,
+h4,
+h5,
+h6 {
+    color: var(--ctp-mocha-subtext1);
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+.b-base {
+    background-color: var(--ctp-mocha-base);
+}
+
+.b-mantle {
+    background-color: var(--ctp-mocha-mantle);
+}
+
+.b-crust {
+    background-color: var(--ctp-mocha-crust);
 }
