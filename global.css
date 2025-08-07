@@ -87,14 +87,14 @@ div {
     background-color: var(--ctp-mocha-crust);
 }
 
-.footer-div {
+.social-div {
     padding: 1em;
     margin: 0.5em;
     justify-items: center;
     display: block ruby;
 }
 
-.social-div {
+.social-item {
     display: flex;
     justify-content: center;
 }
